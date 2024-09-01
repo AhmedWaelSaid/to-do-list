@@ -1,0 +1,162 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #35256e;
+    color: aliceblue
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 100px;
+    background-image: linear-gradient(to top, #35256e, rgb(69, 197, 206, .5));
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to top, #35256e, rgb(69, 197, 206, .2));
+
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+
+    border: 4px solid red;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    background: rgba(36, 94, 138, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(67, 76, 192, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 3px solid #107fc9;
+}
+
+.twoicons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: 30px;
+    transition: .2s;
+}
+.icon-heart{
+    font-size: 30px;
+    color: rgb(255, 96, 96);
+    
+}
+.icon-heart:hover {
+    font-size: 33px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.icon:hover {
+    font-size: 33px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.task p {
+    font-size: 30px;
+}
+
+.icon-trash-o,
+.icon-star {
+
+    opacity: 1;
+}
+
+.icon-trash-o:hover {
+    opacity: 1;
+    color: rgb(138, 11, 22);
+
+}
+
+.icon-star:hover {
+    opacity: 1;
+    color: rgb(107, 224, 10);
+    
+
+}
+
+.icon-frown-o {
+    color: rgb(52, 201, 15);
+}
+
+.icon-frown-o:hover {
+
+    color: #c9ad10;
+
+}
+
+form {
+
+    text-align: center;
+
+}
+
+.inputbox {
+
+    width: 40%;
+    height: 50px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.icon-upload {
+    all: unset;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 20px;
+    color: #10a9e6;
+    cursor: pointer;
+}
+
+.icon-upload:hover {
+
+    color: #12c05a;
+    transition: .4s;
+    
+}
+form{
+ margin-bottom: 250px;
+}
+
+ /* for javascript  */
+
+ .dn {
+
+    display: none;
+    
+ }
+ .finish {
+
+    text-decoration: line-through;
+    
+ }
+ .yellow{
+
+    color: #ffee05;
+    
+    
+ }
